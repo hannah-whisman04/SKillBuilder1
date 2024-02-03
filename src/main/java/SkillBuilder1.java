@@ -19,20 +19,20 @@ public class SkillBuilder1 {
         //Prompting the user to input a floating number can be found in method below
 
         //what should print out AFTER they input spice
-        System.out.println("Well " + name + ", the spice value resulted in " + calculateSpiceValue());
+        //System.out.println("Well " + name + ", the spice value resulted in " + calculateSpiceValue());
     }
 
     //Method to calculate the spice value
-    private static double calculateSpiceValue()
+    //private static double calculateSpiceValue()
     {
-       Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a floating-point number:");
-        double spice = scanner.nextDouble();
+       //Scanner scanner = new Scanner(System.in);
+        //System.out.print("Enter a floating-point number:");
+        //double spice = scanner.nextDouble();
 
         //COME BACK TO THIS SECTION
         //math to calculate the new spice value
-        double equation = Math.pow((4/3),2)*(Math.pow(2,Math.sqrt(5))/Math.pow(spice,3));
-        return equation;
+        //double equation = Math.pow((4/3),2)*(Math.pow(2,Math.sqrt(5))/Math.pow(spice,3));
+        //return equation;
 
 
     }
